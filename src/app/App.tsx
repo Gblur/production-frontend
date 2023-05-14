@@ -9,6 +9,7 @@ import { AboutPage } from "pages/About";
 import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import { Navbar } from "widgets/Navbar";
+import { Sidebar } from "widgets/Sidebar";
 
 
 
@@ -19,7 +20,11 @@ function App() {
     return (
         <div className={classNames('app', { hovered: true }, [theme])}>
             <Navbar />
-            <AppRouter />
+            <div className="content-page">
+                <Sidebar />
+                <AppRouter />
+            </div>
+
         </div>
     );
 }
