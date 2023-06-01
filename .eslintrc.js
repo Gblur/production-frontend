@@ -44,7 +44,7 @@ module.exports = {
     'react/jsx-uses-react': 2,
     'no-underscore-dangle': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
-    'max-len': ['error', { ignoreComments: true }],
+    'max-len': ['error', { code: 100, ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
