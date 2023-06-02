@@ -18,6 +18,13 @@ export const LangSwitcher: FC<LangSwitcherProps> = (props) => {
     };
 
     return (
-        <Button className={classNames(styles.LangSwitcher, {}, [className])} theme={ThemeButton.CLEAR} onClick={toggle}>{t('Язык')}</Button>
+        <Button
+            className={classNames(styles.LangSwitcher, {}, [className])}
+            theme={ThemeButton.CLEAR}
+            onClick={toggle}
+        >
+            {t('Язык')}
+
+        </Button>
     );
 };
