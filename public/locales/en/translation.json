@@ -3,5 +3,8 @@
     "Главная страница": "Main page",
     "О сайте": "About",
     "Тогал": "Toggle",
-    "Страница не найдена": " Not Found Page"
+    "Страница не найдена": " Not Found Page",
+    "Что-то пошло не так.": "Some think is happen",
+    "Обновить страницу": "Refresh this page",
+    "throw error": "throw error"
 }
